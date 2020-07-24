@@ -1,0 +1,20 @@
+{
+    "apps": [
+        {
+            "name": "culture_jiaoyi_app", //项目名称
+            "script": "./app.js",//启动文件
+            "cwd": "/",//项目目录位置
+            "watch": [ //监测目录
+                "build",
+                "config",
+                "dist",
+                "src",
+                "static"
+            ],
+            "access": "./logs/culture_jiaoyi_app/access.log", 
+            "app-error": "./logs/culture_jiaoyi_app/app-err.log", 
+            "app-info": "./logs/culture_jiaoyi_app/app-out.log",
+            "log_date_format": "YYYY-MM-DD HH:mm Z"//日志时间格式
+        }
+    ]
+}

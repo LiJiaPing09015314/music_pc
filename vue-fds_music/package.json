@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "serve": "vue-cli-service serve ",
+    "build": "vue-cli-service build",
+    "pm2": "pm2 start processes.json"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -19,6 +20,10 @@
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-service": "^4.4.0",
     "babel-plugin-import": "^1.13.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
     "vue-template-compiler": "^2.6.11"
   }
 }
