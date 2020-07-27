@@ -4,7 +4,7 @@
     {
       "name": "NeteaseCloudMusicApi-master",
       "cwd": "./",
-      "script": "NeteaseCloudMusicApi-master/server.js",
+      "script": "NeteaseCloudMusicApi-master/app.js",
       "log_date_format": "YYYY-MM-DD HH:mm Z",
       "instances": 1,
       "min_uptime": "20000",
@@ -20,7 +20,7 @@
     }, {
       "name": "vue-fds_music",
       "cwd": "./",
-      "script": "vue-fds_music/server/index.js",
+      "script": "vue-fds_music/app.js",
       "log_date_format": "YYYY-MM-DD HH:mm Z",
       "instances": 1,
       "min_uptime": "20000",

@@ -2,7 +2,7 @@ module.exports = {
   apps : [{
     name: "vue-fds_music",
     cwd: "./",
-    script: 'vue-fds_music/server/index.js',
+    script: 'vue-fds_music/app.js',
     watch: true,
     merge_logs: true,
     log_date_format: "YYYY-MM-DD HH:mm Z",
@@ -18,7 +18,7 @@ module.exports = {
   }, {
     name: "NeteaseCloudMusicApi-master",
     cwd: "./",
-    script: 'NeteaseCloudMusicApi-master/server.js',
+    script: 'NeteaseCloudMusicApi-master/app.js',
     watch: true,
     log_date_format: "YYYY-MM-DD HH:mm Z",
     instances: 1,
