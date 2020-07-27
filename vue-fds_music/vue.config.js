@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
-          port: 80
+          port: 8899
   },
   publicPath: process.env.NODE_ENV === 'production' ? '/fds_music/' : '/',
   configureWebpack: {
