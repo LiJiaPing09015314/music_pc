@@ -21,7 +21,7 @@
     "@vue/cli-service": "^4.4.0",
     "babel-plugin-import": "^1.13.0",
     "chalk": "^4.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "path": "^0.12.7",
     "vue-template-compiler": "^2.6.11"
